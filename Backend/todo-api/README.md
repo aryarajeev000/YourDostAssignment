@@ -3,7 +3,7 @@
 This is a simple To-Do CRUD API built using Node.js and Express, where all data is stored inside a local JSON file (todos.json).
 No external database (MongoDB / SQL) is used, making it perfect for small projects, assignments, and demonstrations.
 
-##The API supports full CRUD functionality:
+## The API supports full CRUD functionality:
 
 Create a To-Do
 
@@ -15,7 +15,7 @@ Delete a To-Do
 
 Data is stored in a JSON file and handled using the Node.js fs module.
 
-##🚀 Features
+## 🚀 Features
 
 Full CRUD operations (GET, POST, PUT, DELETE)
 
@@ -31,7 +31,7 @@ Easy to deploy and test
 
 No database setup required
 
-##📁 Project Structure
+## 📁 Project Structure
 todo-api/
 │
 ├── todos.json
@@ -48,17 +48,17 @@ todo-api/
     └── utils/
          └── fileHandler.js
 
-##⚙️ Setup Instructions
-###1️⃣ Install dependencies
+## ⚙️ Setup Instructions
+### 1️⃣ Install dependencies
 npm install
 
-###2️⃣ Ensure todos.json exists in project root
+### 2️⃣ Ensure todos.json exists in project root
 
 todos.json must contain:
 
 []
 
-###3️⃣ Start the server
+### 3️⃣ Start the server
 npm run dev
 
 
@@ -66,7 +66,7 @@ or
 
 npm start
 
-###4️⃣ Server will run on:
+### 4️⃣ Server will run on:
 http://localhost:5000
 
 📌 API Endpoints
@@ -85,7 +85,7 @@ Response:
   }
 ]
 
-###✔ Create a new todo
+### ✔ Create a new todo
 POST /todos
 
 Body (JSON):
@@ -102,7 +102,7 @@ Response:
   "createdAt": "2025-01-01T10:00:00.000Z"
 }
 
-###✔ Update a todo
+### ✔ Update a todo
 PUT /todos/:id
 
 Body:
@@ -118,7 +118,7 @@ Response:
   "updatedAt": "2025-01-01T10:05:00.000Z"
 }
 
-###✔ Delete a todo
+### ✔ Delete a todo
 DELETE /todos/:id
 
 Response:
@@ -126,7 +126,7 @@ Response:
   "message": "Todo deleted successfully"
 }
 
-##🧪 Test Cases
+## 🧪 Test Cases
 ✔ Valid To-Do creation
 ✔ Title missing → returns 400
 ✔ Completed must be boolean
@@ -135,7 +135,7 @@ Response:
 ✔ GET when no todos available
 ✔ Data written & updated inside todos.json
 
-##⚠️ Deployment Notes (Important)
+## ⚠️ Deployment Notes (Important)
 
 If deployed on Render / Railway / Cyclic,
 the local JSON file will not persist, because:
@@ -148,7 +148,7 @@ API works, but data is temporary.
 
 For permanent storage, use MongoDB / Firebase / external DB.
 
-##🎯 Tech Stack
+## 🎯 Tech Stack
 
 Node.js
 
