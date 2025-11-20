@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1763570733247113",
+    "title": "Implement Stack and Queue using Java",
+    "completed": true,
+    "createdAt": "2025-11-19T16:45:33.247Z"
+  },
+  {
+    "id": "1763570806260705",
+    "title": "Revise Java Core concepts: Collections, Threads, Exceptions",
+    "completed": false,
+    "createdAt": "2025-11-19T16:46:46.260Z"
+  },
+  {
+    "id": "1763570815212122",
+    "title": "Practice OOPs concepts: Abstraction, Encapsulation, Inheritance, Polymorphism",
+    "completed": false,
+    "createdAt": "2025-11-19T16:46:55.212Z"
+  },
+  {
+    "id": "1763570823303751",
+    "title": "Learn Node.js event loop, callbacks, promises and async/await",
+    "completed": false,
+    "createdAt": "2025-11-19T16:47:03.303Z"
+  },
+  {
+    "id": "176357084178643",
+    "title": "Build a sample CRUD REST API using Express",
+    "completed": true,
+    "createdAt": "2025-11-19T16:47:21.786Z"
+  }
+]
