@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// Path to the local database file
+// Path to the local database file i am not using mongoDB
 const DB_PATH = path.join(__dirname, '../../todos.json');
 
 // Read JSON file
