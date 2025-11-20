@@ -1,12 +1,12 @@
-#Second Largest Unique Element — Binary Search Approach
-##Overview
+# Second Largest Unique Element — Binary Search Approach
+## Overview
 
 This project finds the second largest unique element in an array of integers.
 The logic is implemented in Java, Python, and JavaScript, all using the same Binary Search–based approach.
 
 If the array does not contain at least two unique values, the function returns -1.
 
-##Approach
+## Approach
 
 The solution follows these steps:
 
@@ -20,21 +20,21 @@ This value becomes the second largest unique value.
 
 If no such element exists, return -1.
 
-##Time & Space Complexity
-###Time Complexity
+## Time & Space Complexity
+### Time Complexity
 
 Sorting: O(n log n)
 
 Binary Search: O(log n)
 Total: O(n log n)
 
-Space Complexity
+### Space Complexity
 
 Sorting is performed in-place (Java & Python lists, JS engine optimized)
 
 O(1) extra space
 
-##Why Not Use a Priority Queue and set?
+## Why Not Use a Priority Queue and set?
 
 A Priority Queue (Max-Heap) also could solve this problem, but it isn’t ideal here:
 
@@ -50,7 +50,7 @@ same for set we need extra space to solve this problem.
 
 Because of this, sorting + binary search is the cleanest and most efficient option for this problem.
 
-##Sample Inputs & Outputs
+## Sample Inputs & Outputs
 Case 1 — Normal Case
 
 Input:
